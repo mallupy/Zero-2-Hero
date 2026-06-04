@@ -1,5 +1,5 @@
 1. Start
-2. input no. of numbers to n            5
+2. input no. of numbers to n
 3. initialize sum = 0, count = 1
 4. input number{count} to i
 5. add i to sum
