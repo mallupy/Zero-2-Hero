@@ -1,10 +1,6 @@
-Memorizing basic data types and operators in isolation is a trap; you will not actually master Python until you understand how these elements implicitly interact, convert, and fail together during runtime. Confidence: 10/10.
-
-[Certain] Python is dynamically typed, meaning you do not declare the type explicitly, but the interpreter strictly enforces type boundaries when operations occur.
-
 ### Data Types
 
-[Certain] These core data types govern how information is stored and manipulated.
+These core data types govern how information is stored and manipulated.
 
 * **`int` (Integer):** Whole numbers without a fractional part (e.g., `5`, `-42`). In Python 3, they have arbitrary precision, meaning they are limited only by available system memory.
 * **`float` (Floating Point):** Numbers with a decimal point (e.g., `3.14`, `-0.001`). They are subject to floating-point precision limitations, meaning operations like `0.1 + 0.2` will yield `0.30000000000000004` rather than exactly `0.3`.
@@ -14,7 +10,7 @@ Memorizing basic data types and operators in isolation is a trap; you will not a
 
 ### Operators
 
-[Certain] Operators manipulate data, but their behavior heavily depends on the data types involved.
+Operators manipulate data, but their behavior heavily depends on the data types involved.
 
 **Arithmetic Operators**
 
@@ -45,7 +41,7 @@ Memorizing basic data types and operators in isolation is a trap; you will not a
 
 ### Operator Precedence
 
-[Certain] When multiple operators are used in an expression, Python evaluates them based on a strict hierarchy. Parentheses `()` can always be used to override this order.
+When multiple operators are used in an expression, Python evaluates them based on a strict hierarchy. Parentheses `()` can always be used to override this order.
 
 | Precedence (Highest to Lowest) | Operator(s) | Description |
 | --- | --- | --- |
