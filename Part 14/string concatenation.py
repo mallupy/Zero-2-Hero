@@ -1,10 +1,13 @@
 # String Concatenation...
 
 l = ["Aswin", "Appu", "Mallu", "PY"]
-s = ""
+st = ""
 
 for i in l:
-    s = s + i + '_'
+    st = st + i + '_'
 
-s = s[:-1]
-print(s)
+st = st[:-1]
+print(st)
+
+a = "_".join(l)
+print(a)
